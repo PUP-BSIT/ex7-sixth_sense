@@ -1,0 +1,91 @@
+body{
+    background-color: lightslategray;
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#header {
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#interest-hobbies, #myworks, #testimonials {
+    background-color: lightgrey;
+    color: black;
+    padding: 20px;
+    width: calc(25% - 20px); 
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 4px 5px 15px brown;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: lightpink;
+    box-sizing: border-box;
+    width: auto;
+    box-shadow: 4px 5px 15px brown;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 1rem;
+    background-color: rgb(255, 213, 219);
+    box-sizing: border-box;
+    width: auto;
+    box-shadow: 4px 5px 15px brown;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+}
+
+.sam {
+    margin: 1cm 1cm;
+    flex-grow: 2 2;
+    flex-basis: 0;
+}
+
+.sam img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 4px 5px 15px brown;
+}
+
+
+
+.title{
+    text-align: center;
+    background-color: #ffac81;
+    color: black;
+}
