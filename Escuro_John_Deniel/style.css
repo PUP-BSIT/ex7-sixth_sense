@@ -1,5 +1,4 @@
 
-
 .container {
     display: flex;
     justify-content: center;
@@ -32,11 +31,9 @@
     background-color: rgb(170, 227, 227);
   }
   
-
   body {
     background-color: antiquewhite;
   }
-  
   
   .gallery {
     display: flex;
@@ -45,7 +42,7 @@
     gap: 20px;
   }
 
-   .gallerytext {
+   .gallery-text {
       text-align: center;
       display: flex;
       justify-content: center ;
