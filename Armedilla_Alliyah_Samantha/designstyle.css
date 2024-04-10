@@ -1,4 +1,4 @@
-body{
+body {
     background-color: lightslategray;
 }
 .container {
@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 
-#interest-hobbies, #myworks, #testimonials {
+#interest_hobbies, #works, #testimonials {
     background-color: lightgrey;
     color: black;
     padding: 20px;
@@ -82,9 +82,7 @@ ul, ol {
     box-shadow: 4px 5px 15px brown;
 }
 
-
-
-.title{
+.title {
     text-align: center;
     background-color: #ffac81;
     color: black;
